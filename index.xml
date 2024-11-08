@@ -64,7 +64,7 @@ Markdown
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Reaper Scripts for Game Audio and Sound Design\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This is a database of scripts that I wrote for Reaper DAW. Thought I'd share them as I found them to be useful for my workflow and could be useful for the community as well. Enjoy!\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This is a database of scripts that I wrote for Reaper DAW. Thought I'd share them as they are useful for my workflow and could be useful for the community as well. Enjoy!\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Installation\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 You can install these scripts by using ReaPack. In Reaper, go to the menu bar: Extension > ReaPack > Import Repositories... and copy and past the link below into the dialogue box.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 https://github.com/mcheung-dev/mc_reaScripts/raw/master/index.xml\par}
