@@ -49,7 +49,12 @@ Markdown
 {\pard \ql \f0 \sa180 \li0 \fi0 You can install these scripts by using ReaPack. In Reaper, go to the menu bar: Extension > ReaPack > Import Repositories... and copy and past the link below into the dialogue box.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 https://github.com/mcheung-dev/mc_reaScripts/raw/master/index.xml\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Actions\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE mc - Auto Name Region based off Track Name mc - Find Items in Session by Name and Center Camera View mc - Move Items to Cursor Location mc - Reposition Items with 0.5s in between mc - Select All Items Under ItemLength Threshold\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Auto Name Region based off Track Name\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Find Items in Session by Name and Center Camera View\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move Items to Cursor Location\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Reposition Items with 0.5s in between\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Select All Items Under ItemLength Threshold\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Contact\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Feel free to visit my website at https://cheungmichael.com or shoot me an email at mcheungwork3@gmail.com!\par}
 }
