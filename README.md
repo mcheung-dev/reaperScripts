@@ -1,23 +1,18 @@
-# ReaPack Repository Template
+# Reaper Scripts for Game Audio and Sound Design
+This is a database of scripts that I wrote for Reaper DAW. Thought I'd share them as I found them to be useful for my workflow and could be useful for the community as well. Enjoy!
 
-A template for GitHub-hosted ReaPack repositories with automated
-[reapack-index](https://github.com/cfillion/reapack-index)
-running from GitHub Actions.
+# Installation 
+You can install these scripts by using ReaPack. In Reaper, go to the menu bar: Extension > ReaPack > Import Repositories... and copy and past the link below into the dialogue box.
 
-Replace the name of the repository in [index.xml](/index.xml) when using this template.
-This will be the name shown in ReaPack.
+https://github.com/mcheung-dev/mc_reaScripts/raw/master/index.xml
 
-```xml
-<index version="1" name="Name of your repository here">
-```
+# Actions 
+mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE 
+mc - Auto Name Region based off Track Name 
+mc - Find Items in Session by Name and Center Camera View 
+mc - Move Items to Cursor Location 
+mc - Reposition Items with 0.5s in between
+mc - Select All Items Under ItemLength Threshold
 
-Replace the contents of this file ([README.md](/README.md)).
-This will be the text shown when using ReaPack's "About this repository" feature.
-
-reapack-index looks for package files in subfolders.
-The folder tree represents the package categories shown in ReaPack.
-
-Each package file is expected to begin with a metadata header.
-See [Packaging Documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation) on reapack-index's wiki.
-
-The URL to import in ReaPack is [https://github.com/`<your username>`/`<repository name>`/raw/master/index.xml](https://github.com/cfillion/reapack-repository-template/raw/master/index.xml).
+# Contact 
+Feel free to visit my website at https://cheungmichael.com or shoot me an email at mcheungwork3@gmail.com! 
