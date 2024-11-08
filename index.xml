@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
+<index version="1" name="mc_reaperScripts" commit="165c7852490334a7d2d8b3b31e5728413fc7456e">
   <category name="Example">
     <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
       <metadata>
@@ -18,6 +18,23 @@ Markdown
       </metadata>
       <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
         <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Scripts">
+    <reapack name="mc_AutoName Region based off Track Name.lua" type="script">
+      <version name="1.0" author="mcheung" time="2024-11-08T08:24:08Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/165c7852490334a7d2d8b3b31e5728413fc7456e/Scripts/mc_AutoName%20Region%20based%20off%20Track%20Name.lua</source>
+      </version>
+    </reapack>
+    <reapack name="mc_Move Muted Tracks to Bottom Except VIDEO &amp; REFERENCE.lua" type="script">
+      <version name="1.0" author="mcheung" time="2024-11-08T08:24:08Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/165c7852490334a7d2d8b3b31e5728413fc7456e/Scripts/mc_Move%20Muted%20Tracks%20to%20Bottom%20Except%20VIDEO%20&amp;%20REFERENCE.lua</source>
+      </version>
+    </reapack>
+    <reapack name="mc_Select items under length threshold on selected tracks.lua" type="script">
+      <version name="1.0" author="mcheung" time="2024-11-08T08:24:08Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/165c7852490334a7d2d8b3b31e5728413fc7456e/Scripts/mc_Select%20items%20under%20length%20threshold%20on%20selected%20tracks.lua</source>
       </version>
     </reapack>
   </category>
