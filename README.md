@@ -7,12 +7,12 @@ You can install these scripts by using ReaPack. In Reaper, go to the menu bar: E
 https://github.com/mcheung-dev/mc_reaScripts/raw/master/index.xml
 
 # Actions 
-mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE 
-mc - Auto Name Region based off Track Name 
-mc - Find Items in Session by Name and Center Camera View 
-mc - Move Items to Cursor Location 
-mc - Reposition Items with 0.5s in between
-mc - Select All Items Under ItemLength Threshold
+* mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE 
+* mc - Auto Name Region based off Track Name 
+* mc - Find Items in Session by Name and Center Camera View 
+* mc - Move Items to Cursor Location 
+* mc - Reposition Items with 0.5s in between
+* mc - Select All Items Under ItemLength Threshold
 
 # Contact 
 Feel free to visit my website at https://cheungmichael.com or shoot me an email at mcheungwork3@gmail.com! 
