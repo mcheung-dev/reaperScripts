@@ -1,7 +1,5 @@
-
 -- @author mcheung
 -- @version 1.0 
-
 function main()
 local mouse_pos = reaper.BR_PositionAtMouseCursor(true)
 

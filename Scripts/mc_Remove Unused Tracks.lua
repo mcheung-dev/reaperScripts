@@ -1,8 +1,5 @@
-
 -- @author mcheung
 -- @version 1.0 
-
-
 function TrackUnused(track)
     if reaper.CountTrackMediaItems(track) > 0 then return false end -- has media items
     if reaper.GetTrackNumSends(track, -1) > 0 then return false end -- has sends

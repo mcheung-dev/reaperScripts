@@ -1,7 +1,5 @@
-
 -- @author mcheung
 -- @version 1.0 
-
 function main()
     -- count all the items in the session and store as variable 
     local numOfItems =  reaper.CountMediaItems(0)
