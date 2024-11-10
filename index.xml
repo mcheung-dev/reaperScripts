@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="6567f8ca6ba5f927597e9ea636972c6f8de43e14">
+<index version="1" name="mc_reaperScripts" commit="3abd3eda3f933d8120c1c5ffcba1661490e9d8e7">
   <category name="Example">
     <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
       <metadata>
@@ -47,6 +47,11 @@ Markdown
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/165c7852490334a7d2d8b3b31e5728413fc7456e/Scripts/mc_Move%20Muted%20Tracks%20to%20Bottom%20Except%20VIDEO%20&amp;%20REFERENCE.lua</source>
       </version>
     </reapack>
+    <reapack name="mc_Move Selected Tracks to Top.lua" type="script">
+      <version name="1.0" author="mcheung" time="2024-11-09T07:20:20Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/3abd3eda3f933d8120c1c5ffcba1661490e9d8e7/Scripts/mc_Move%20Selected%20Tracks%20to%20Top.lua</source>
+      </version>
+    </reapack>
     <reapack name="mc_Remove Unused Tracks.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-08T08:45:13Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/2dfdbeb03361e6f47a2e983c782eb7da6e8c7643/Scripts/mc_Remove%20Unused%20Tracks.lua</source>
@@ -81,7 +86,7 @@ Markdown
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Reposition Items with 0.5s in between\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Select All Items Under ItemLength Threshold\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Contact\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Feel free to visit my website at https://cheungmichael.com or shoot me an email at mcheungwork3@gmail.com!\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Shoot me an email at mcheungwork3@gmail.com!\par}
 }
 ]]></description>
   </metadata>
