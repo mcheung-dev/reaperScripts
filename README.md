@@ -15,4 +15,4 @@ https://github.com/mcheung-dev/mc_reaScripts/raw/master/index.xml
 * mc - Select All Items Under ItemLength Threshold
 
 # Contact 
-Feel free to visit my website at https://cheungmichael.com or shoot me an email at mcheungwork3@gmail.com! 
+Shoot me an email at mcheungwork3@gmail.com! 
