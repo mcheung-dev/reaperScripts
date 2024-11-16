@@ -1,5 +1,6 @@
 -- @author mcheung
 -- @version 1.0
+-- script that sets all tracks to 0dB
 function main()
     local num_tracks = reaper.CountTracks(0)
     
@@ -17,3 +18,4 @@ main()
 reaper.UpdateArrange()
 reaper.PreventUIRefresh(-1)
 reaper.Undo_EndBlock("Set all track volumes to 0 dB", -1)
+
