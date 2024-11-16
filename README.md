@@ -4,7 +4,7 @@ This is a database of scripts that I wrote for Reaper DAW. Thought I'd share the
 # Installation 
 You can install these scripts by using ReaPack. In Reaper, go to the menu bar: Extension > ReaPack > Import Repositories... and copy and past the link below into the dialogue box.
 
-https://github.com/mcheung-dev/mc_reaScripts/raw/master/index.xml
+https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/index.xml
 
 # Actions 
 * mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE 
