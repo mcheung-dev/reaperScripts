@@ -1,11 +1,12 @@
 -- @author mcheung
 -- @version 1.0 
+-- Feel free to adjust the parameters of a "Used Track"
 function TrackUnused(track)
     if reaper.CountTrackMediaItems(track) > 0 then return false end -- has media items
     if reaper.GetTrackNumSends(track, -1) > 0 then return false end -- has sends
     if reaper.GetTrackNumSends(track, 0) > 0 then return false end -- has receives
     if reaper.GetTrackNumSends(track, 1) > 0 then return false end -- has hardware output
-    if reaper.TrackFX_GetCount(track) > 0 then return false end -- has FX plugins
+    -- if reaper.TrackFX_GetCount(track) > 0 then return false end -- has FX plugins
     if reaper.GetMediaTrackInfo_Value(track, 'I_RECARM') == 1 then return false end -- is armed
     if reaper.CountTrackEnvelopes(track) > 0 then return false end -- has envelopes
     return true -- if all conditions are met, track is "unused"
