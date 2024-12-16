@@ -12,7 +12,7 @@ function main()
         local is_muted = reaper.GetMediaTrackInfo_Value(track, "B_MUTE") == 1
 
         -- Add to list only if the track is muted and not named "VIDEO" or "REFERENCE"
-        if is_muted and track_name ~= "VIDEO" and track_name ~= "REFERENCE" then
+        if is_muted and track_name ~= "VIDEO" and track_name ~= "REFERENCE" and track_name ~= "video" and track_name ~= "reference" then
             table.insert(muted_tracks, track)
         end
     end
