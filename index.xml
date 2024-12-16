@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="c80c5daebd893187c583564c925d811decf59929">
+<index version="1" name="mc_reaperScripts" commit="6f1cdcee01aaa37164e1f776ae1bffe119f80851">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script" desc="Finds regions with duplicate names and increments by number">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -49,6 +49,11 @@
     <reapack name="mc_Select items under length threshold on selected tracks.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-08T08:24:08Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/165c7852490334a7d2d8b3b31e5728413fc7456e/Scripts/mc_Select%20items%20under%20length%20threshold%20on%20selected%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="mc_Set All Tracks to 0dB.lua" type="script">
+      <version name="1.0" author="mcheung" time="2024-11-16T21:39:25Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/6f1cdcee01aaa37164e1f776ae1bffe119f80851/Scripts/mc_Set%20All%20Tracks%20to%200dB.lua</source>
       </version>
     </reapack>
   </category>
