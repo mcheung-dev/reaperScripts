@@ -69,11 +69,16 @@
 {\pard \ql \f0 \sa180 \li0 \fi0 https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/index.xml\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Actions\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move Selected Tracks to Top Below VIDEO & REFERENCE\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Auto Name Region based off Track Name\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Find Items in Session by Name and Center Camera View\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move Items to Cursor Location\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Reposition Items with 0.5s in between\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Select All Items Under ItemLength Threshold\sa180\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Select All Items Under ItemLength Threshold\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Auto Increment Duplicate Regions\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Delete Unused Tracks\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move items to mouse location\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Set All Tracks to 0dB\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Contact\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Shoot me an email at mcheungwork3@gmail.com!\par}
 }
