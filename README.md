@@ -1,6 +1,7 @@
 # Reaper Scripts for Game Audio and Sound Design
 This is a database of scripts that I wrote for Reaper DAW. Thought I'd share them as they are useful for my workflow and could be useful for the community as well. Enjoy!
 
+SWS and the js_ReaScriptAPI extensions are both required to be installed for select scripts to work correctly.
 # Installation 
 You can install these scripts by using ReaPack. In Reaper, go to the menu bar: Extension > ReaPack > Import Repositories... and copy and past the link below into the dialogue box.
 
