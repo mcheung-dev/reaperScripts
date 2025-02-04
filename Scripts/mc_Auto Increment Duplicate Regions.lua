@@ -17,7 +17,7 @@ local function generate_unique_name(existing_names, base_name)
     local counter = 1
 
     while existing_names[name] do
-        name = base_name .. "_0" .. counter .. ""
+        name = base_name .. "_0" .. counter .. "" --
         counter = counter + 1
     end
 
