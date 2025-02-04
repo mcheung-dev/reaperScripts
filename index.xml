@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="7e597d6d48894b1d955c527db8faa28b7aea2948">
+<index version="1" name="mc_reaperScripts" commit="5b511cdf5fdddfaef2972e12b9c81eefcc72ec66">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script" desc="Finds regions with duplicate names and increments by number">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -9,11 +9,6 @@
     <reapack name="mc_AutoName Region based off Track Name.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-08T08:24:08Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/165c7852490334a7d2d8b3b31e5728413fc7456e/Scripts/mc_AutoName%20Region%20based%20off%20Track%20Name.lua</source>
-      </version>
-    </reapack>
-    <reapack name="mc_Deleted Unused Tracks.lua" type="script">
-      <version name="1.0" author="mcheung" time="2024-11-09T07:12:44Z">
-        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/6567f8ca6ba5f927597e9ea636972c6f8de43e14/Scripts/mc_Deleted%20Unused%20Tracks.lua</source>
       </version>
     </reapack>
     <reapack name="mc_Find Items by Name and Move View to Center.lua" type="script">
