@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="6f1cdcee01aaa37164e1f776ae1bffe119f80851">
+<index version="1" name="mc_reaperScripts" commit="df45a9adc97ba0d5b054712494cec5115c98535e">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script" desc="Finds regions with duplicate names and increments by number">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -31,9 +31,9 @@
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/165c7852490334a7d2d8b3b31e5728413fc7456e/Scripts/mc_Move%20Muted%20Tracks%20to%20Bottom%20Except%20VIDEO%20&amp;%20REFERENCE.lua</source>
       </version>
     </reapack>
-    <reapack name="mc_Move Selected Tracks to Top.lua" type="script">
-      <version name="1.0" author="mcheung" time="2024-11-09T07:20:20Z">
-        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/3abd3eda3f933d8120c1c5ffcba1661490e9d8e7/Scripts/mc_Move%20Selected%20Tracks%20to%20Top.lua</source>
+    <reapack name="mc_Move Selected Tracks to Top Below VIDEO &amp; REFERENCE.lua" type="script">
+      <version name="1.0" author="mcheung" time="2024-12-16T06:22:34Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/df45a9adc97ba0d5b054712494cec5115c98535e/Scripts/mc_Move%20Selected%20Tracks%20to%20Top%20Below%20VIDEO%20&amp;%20REFERENCE.lua</source>
       </version>
     </reapack>
     <reapack name="mc_Remove Unused Tracks.lua" type="script">
@@ -69,11 +69,16 @@
 {\pard \ql \f0 \sa180 \li0 \fi0 https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/index.xml\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Actions\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move Selected Tracks to Top Below VIDEO & REFERENCE\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Auto Name Region based off Track Name\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Find Items in Session by Name and Center Camera View\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move Items to Cursor Location\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Reposition Items with 0.5s in between\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Select All Items Under ItemLength Threshold\sa180\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Select All Items Under ItemLength Threshold\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Auto Increment Duplicate Regions\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Delete Unused Tracks\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Move items to mouse location\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab mc - Set All Tracks to 0dB\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Contact\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Shoot me an email at mcheungwork3@gmail.com!\par}
 }
