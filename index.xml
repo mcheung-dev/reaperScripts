@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="dc61359469e76faedc9e46322d357d4149093239">
+<index version="1" name="mc_reaperScripts" commit="7e597d6d48894b1d955c527db8faa28b7aea2948">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script" desc="Finds regions with duplicate names and increments by number">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -39,6 +39,9 @@
     <reapack name="mc_Remove Unused Tracks.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-08T08:45:13Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/2dfdbeb03361e6f47a2e983c782eb7da6e8c7643/Scripts/mc_Remove%20Unused%20Tracks.lua</source>
+      </version>
+      <version name="1.1" author="mcheung" time="2025-02-04T06:40:55Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/7e597d6d48894b1d955c527db8faa28b7aea2948/Scripts/mc_Remove%20Unused%20Tracks.lua</source>
       </version>
     </reapack>
     <reapack name="mc_Render time selection to stereo tracks.lua" type="script">
