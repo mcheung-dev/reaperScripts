@@ -1,5 +1,5 @@
 -- @author mcheung
--- @version 1.0 
+-- @version 1.1 
 -- Feel free to adjust the parameters of a "Used Track"
 function TrackUnused(track)
     if reaper.CountTrackMediaItems(track) > 0 then return false end -- has media items
