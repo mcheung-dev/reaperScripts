@@ -20,6 +20,8 @@ if sel_track then
         reaper.SetOnlyTrackSelected(sel_track)
         reaper.ReorderSelectedTracks(track_idx + 1, 0)
     end
+    
+reaper.Main_OnCommand(40635, 0) -- remove time selection 
 
 reaper.Undo_EndBlock("Copy and paste track below", -1)
 
