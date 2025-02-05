@@ -1,3 +1,5 @@
+-- @author mcheung
+-- @version 1.0 
 -- Function to rename duplicate regions
 function rename_duplicate_regions()
     -- Get the number of regions

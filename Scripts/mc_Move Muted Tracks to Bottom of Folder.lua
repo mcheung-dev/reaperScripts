@@ -1,3 +1,5 @@
+-- @author mcheung
+-- @version 1.0 
 -- Reaper Lua Script: Move muted tracks to the bottom of their respective folders
 
 reaper.Undo_BeginBlock()
