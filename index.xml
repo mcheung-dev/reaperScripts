@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="d6466dbbbea2a6a5a7b58f430ef9133e424159fc">
+<index version="1" name="mc_reaperScripts" commit="9a7d596a89f68755eb34f7ac7e40e57599b0d389">
   <category name="Scripts">
-    <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script" desc="Finds regions with duplicate names and increments by number">
+    <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/c80c5daebd893187c583564c925d811decf59929/Scripts/mc_Auto%20Increment%20Duplicate%20Regions.lua</source>
       </version>
@@ -24,6 +24,11 @@
     <reapack name="mc_Move Muted Tracks to Bottom Except VIDEO &amp; REFERENCE.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-08T08:24:08Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/165c7852490334a7d2d8b3b31e5728413fc7456e/Scripts/mc_Move%20Muted%20Tracks%20to%20Bottom%20Except%20VIDEO%20&amp;%20REFERENCE.lua</source>
+      </version>
+    </reapack>
+    <reapack name="mc_Move Muted Tracks to Bottom of Folder.lua" type="script">
+      <version name="1.0" author="mcheung" time="2025-02-05T04:16:08Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/9a7d596a89f68755eb34f7ac7e40e57599b0d389/Scripts/mc_Move%20Muted%20Tracks%20to%20Bottom%20of%20Folder.lua</source>
       </version>
     </reapack>
     <reapack name="mc_Move Selected Tracks to Top Below VIDEO &amp; REFERENCE.lua" type="script">
