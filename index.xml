@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="9a7d596a89f68755eb34f7ac7e40e57599b0d389">
+<index version="1" name="mc_reaperScripts" commit="5ec9ad694463d12754bd39de710d8fe1dc1aded8">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -14,6 +14,11 @@
     <reapack name="mc_Find Items by Name and Move View to Center.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-08T08:45:13Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/2dfdbeb03361e6f47a2e983c782eb7da6e8c7643/Scripts/mc_Find%20Items%20by%20Name%20and%20Move%20View%20to%20Center.lua</source>
+      </version>
+    </reapack>
+    <reapack name="mc_Mousewheel Item Rate.lua" type="script">
+      <version name="1.0" time="2025-02-07T05:55:27Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/5ec9ad694463d12754bd39de710d8fe1dc1aded8/Scripts/mc_Mousewheel%20Item%20Rate.lua</source>
       </version>
     </reapack>
     <reapack name="mc_Move items to mouse location.lua" type="script">
