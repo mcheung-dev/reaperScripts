@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="5ec9ad694463d12754bd39de710d8fe1dc1aded8">
+<index version="1" name="mc_reaperScripts" commit="661f011af616cf4e16c4ab87b473e6d14a9fde5e">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -9,6 +9,11 @@
     <reapack name="mc_AutoName Region based off Track Name.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-08T08:24:08Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/165c7852490334a7d2d8b3b31e5728413fc7456e/Scripts/mc_AutoName%20Region%20based%20off%20Track%20Name.lua</source>
+      </version>
+    </reapack>
+    <reapack name="mc_Create Region from Selected Items.lua" type="script">
+      <version name="1.0" author="mcheung" time="2025-02-15T22:59:22Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/661f011af616cf4e16c4ab87b473e6d14a9fde5e/Scripts/mc_Create%20Region%20from%20Selected%20Items.lua</source>
       </version>
     </reapack>
     <reapack name="mc_Find Items by Name and Move View to Center.lua" type="script">
