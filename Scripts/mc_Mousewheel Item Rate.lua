@@ -1,5 +1,6 @@
--- Adjustment to script by LEWIS HAINES AUDIO to work for all takes in media item. 
+-- @author mcheung
 -- @version 1.0 
+-- Adjustment to script by LEWIS HAINES AUDIO to work for all takes in media item. 
 
 -- CHANGE THIS TO MODIFY RATE CHANGE INTENSITY
 scalingAmount = 0.15
