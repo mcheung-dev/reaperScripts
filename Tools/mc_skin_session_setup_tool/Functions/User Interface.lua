@@ -22,7 +22,7 @@ local pin = true
 local FLOATMIN = reaper.ImGui_NumericLimits_Float() -- returns a very small number close to 0
 
 function import_selected_items_wwise() -- calling python function to import selected items
-     reaper.Main_OnCommand(reaper.NamedCommandLookup("_RSd69a29a9b491051261203e8e2d79bbdeac7ed588"), 0)
+     reaper.Main_OnCommand(reaper.NamedCommandLookup("_RSd18f9e705831271ddbd73351717444f8c07bf82c"), 0)
 end
 
 -- function import_selected_items_wwise()
