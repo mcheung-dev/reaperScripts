@@ -1,5 +1,5 @@
 -- @author mcheung
--- @version 1.0 
+-- @version 1.1
 -- @provides 
 --     [nomain] Functions/*.lua
 ------check to see if user has required dependencies
