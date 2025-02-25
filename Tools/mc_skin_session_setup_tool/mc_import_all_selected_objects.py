@@ -1,6 +1,6 @@
 # @author mcheung
-# @version 1.0 
-##################### -- reminder to install pyimgui, in command prompt "pip install imgui"
+# @version 1.0
+##################### 
 import asyncio
 from waapi import WaapiClient, CannotConnectToWaapiException
 import threading
@@ -13,7 +13,7 @@ def waapi_thread(result_queue):
         asyncio.set_event_loop(async_loop)
 
         with WaapiClient() as client:
-            # Get selected object (should be a Work Unit)
+            # get selected object (
             args = {
                 "options": {
                     "return": ["id", "type", "name", "path"]
@@ -22,7 +22,7 @@ def waapi_thread(result_queue):
             
             selected_objs = client.call("ak.wwise.ui.getSelectedObjects", args)["objects"]
 
-            # Ensure a Work Unit is selected
+            # ensure a Work Unit is selected
             work_unit_ids = [obj["id"] for obj in selected_objs if obj["type"] == "WorkUnit"]
 
             if not work_unit_ids:
@@ -30,7 +30,7 @@ def waapi_thread(result_queue):
                 result_queue.put([])  # Prevent UnboundLocalError
                 return  # Stop execution
 
-            # Get all descendants under the Work Unit
+            # get all descendants under the Work Unit
             query_args = {
                 "from": {
                     "id": work_unit_ids
@@ -45,30 +45,30 @@ def waapi_thread(result_queue):
             
             all_objects = client.call("ak.wwise.core.object.get", query_args)["return"]
 
-            # Dictionary to track imported sounds and prevent duplicates
+            # dictionary to track imported sounds and prevent duplicates
             imported_sound_paths = set()
 
-            # Function to extract all playable Sound objects
+            # function to extract all playable Sound objects
             def get_all_sounds(obj_list):
                 final_sounds = []
                 for obj in obj_list:
                     if obj["type"] == "Sound" and "sound:originalWavFilePath" in obj:
                         wav_path = obj["sound:originalWavFilePath"]
                         if wav_path not in imported_sound_paths:
-                            imported_sound_paths.add(wav_path)  # Track imported sounds
+                            imported_sound_paths.add(wav_path)  # track imported sounds
                             final_sounds.append(wav_path)
                     elif obj["type"] in ["BlendContainer", "RandomSequenceContainer", "ActorMixer"]:
-                        # Get ALL children of the container
+                        # get all the children of container
                         sub_query = {
                             "from": {"id": [obj["id"]]},
                             "transform": [{"select": ["descendants"]}],
                             "options": {"return": ["id", "type", "sound:originalWavFilePath"]}
                         }
                         sub_objects = client.call("ak.wwise.core.object.get", sub_query)["return"]
-                        final_sounds.extend(get_all_sounds(sub_objects))  # Recursively get sounds
+                        final_sounds.extend(get_all_sounds(sub_objects))  # get the sounds
                 return final_sounds
 
-            # Collect all final Sound objects
+            # get all sound objects
             sound_file_paths = get_all_sounds(all_objects)
 
             result_queue.put(sound_file_paths)  # Ensure something is always put in the queue
