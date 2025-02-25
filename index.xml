@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="e3d00c5e10cf2c355efc09d2729eb3cb25b2e2df">
+<index version="1" name="mc_reaperScripts" commit="98792b2398d666a263e788ca8d11b6812dd6b792">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -87,6 +87,12 @@
         <source file="Functions/Create Subproject.lua">https://github.com/mcheung-dev/reaperScripts/raw/80aeabff475454ca4dc962d0e1c84bce6f6f0282/Tools/mc_skin_session_setup_tool/Functions/Create%20Subproject.lua</source>
         <source file="Functions/Organize by Name.lua">https://github.com/mcheung-dev/reaperScripts/raw/80aeabff475454ca4dc962d0e1c84bce6f6f0282/Tools/mc_skin_session_setup_tool/Functions/Organize%20by%20Name.lua</source>
         <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/80aeabff475454ca4dc962d0e1c84bce6f6f0282/Tools/mc_skin_session_setup_tool/Functions/User%20Interface.lua</source>
+      </version>
+      <version name="1.1" author="mcheung" time="2025-02-25T01:04:32Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/98792b2398d666a263e788ca8d11b6812dd6b792/Tools/mc_skin_session_setup_tool/tool_launch.lua</source>
+        <source file="Functions/Create Subproject.lua">https://github.com/mcheung-dev/reaperScripts/raw/98792b2398d666a263e788ca8d11b6812dd6b792/Tools/mc_skin_session_setup_tool/Functions/Create%20Subproject.lua</source>
+        <source file="Functions/Organize by Name.lua">https://github.com/mcheung-dev/reaperScripts/raw/98792b2398d666a263e788ca8d11b6812dd6b792/Tools/mc_skin_session_setup_tool/Functions/Organize%20by%20Name.lua</source>
+        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/98792b2398d666a263e788ca8d11b6812dd6b792/Tools/mc_skin_session_setup_tool/Functions/User%20Interface.lua</source>
       </version>
     </reapack>
   </category>
