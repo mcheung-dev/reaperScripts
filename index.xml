@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="98792b2398d666a263e788ca8d11b6812dd6b792">
+<index version="1" name="mc_reaperScripts" commit="0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -81,18 +81,12 @@
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/80aeabff475454ca4dc962d0e1c84bce6f6f0282/Tools/mc_skin_session_setup_tool/mc_import_all_selected_objects.py</source>
       </version>
     </reapack>
-    <reapack name="tool_launch.lua" type="script">
-      <version name="1.0" author="mcheung" time="2025-02-24T23:19:53Z">
-        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/80aeabff475454ca4dc962d0e1c84bce6f6f0282/Tools/mc_skin_session_setup_tool/tool_launch.lua</source>
-        <source file="Functions/Create Subproject.lua">https://github.com/mcheung-dev/reaperScripts/raw/80aeabff475454ca4dc962d0e1c84bce6f6f0282/Tools/mc_skin_session_setup_tool/Functions/Create%20Subproject.lua</source>
-        <source file="Functions/Organize by Name.lua">https://github.com/mcheung-dev/reaperScripts/raw/80aeabff475454ca4dc962d0e1c84bce6f6f0282/Tools/mc_skin_session_setup_tool/Functions/Organize%20by%20Name.lua</source>
-        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/80aeabff475454ca4dc962d0e1c84bce6f6f0282/Tools/mc_skin_session_setup_tool/Functions/User%20Interface.lua</source>
-      </version>
-      <version name="1.1" author="mcheung" time="2025-02-25T01:04:32Z">
-        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/98792b2398d666a263e788ca8d11b6812dd6b792/Tools/mc_skin_session_setup_tool/tool_launch.lua</source>
-        <source file="Functions/Create Subproject.lua">https://github.com/mcheung-dev/reaperScripts/raw/98792b2398d666a263e788ca8d11b6812dd6b792/Tools/mc_skin_session_setup_tool/Functions/Create%20Subproject.lua</source>
-        <source file="Functions/Organize by Name.lua">https://github.com/mcheung-dev/reaperScripts/raw/98792b2398d666a263e788ca8d11b6812dd6b792/Tools/mc_skin_session_setup_tool/Functions/Organize%20by%20Name.lua</source>
-        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/98792b2398d666a263e788ca8d11b6812dd6b792/Tools/mc_skin_session_setup_tool/Functions/User%20Interface.lua</source>
+    <reapack name="mc_Riot_Skins_Setup_Tool.lua" type="script">
+      <version name="1.1" author="mcheung" time="2025-02-25T01:18:42Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e/Tools/mc_skin_session_setup_tool/mc_Riot_Skins_Setup_Tool.lua</source>
+        <source file="Functions/Create Subproject.lua">https://github.com/mcheung-dev/reaperScripts/raw/0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e/Tools/mc_skin_session_setup_tool/Functions/Create%20Subproject.lua</source>
+        <source file="Functions/Organize by Name.lua">https://github.com/mcheung-dev/reaperScripts/raw/0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e/Tools/mc_skin_session_setup_tool/Functions/Organize%20by%20Name.lua</source>
+        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e/Tools/mc_skin_session_setup_tool/Functions/User%20Interface.lua</source>
       </version>
     </reapack>
   </category>
