@@ -133,16 +133,15 @@ function loop()
                 DeleteAllTracks()------ used to cleanup session so there are no empty subprojects being made 
                 import_selected_items_wwise()
                 OrganizeByName()
-                CreateSubprojectsWithRegions()
-                
-                
-                reaper.ShowMessageBox("Import Complete! Your assets are now organized into subprojects by ability, with regions set up and ready for export.", "Success", 0) -- "0" is OK button type
+                CreateSubprojectsWithRegions()        
+                reaper.ShowMessageBox("Import Complete! Your assets are now organized into subprojects by ability, with regions set up and ready for export.", "Success", 0) 
+        
             elseif regions then
                 DeleteAllTracks()
                 import_selected_items_wwise()
                 OrganizeByName()
                 CreateSubprojectsWithRegions()
-                reaper.ShowMessageBox("Import Complete! Your assets are now organized into subprojects by ability, with regions set up and ready for export.t", "Success", 0) -- "0" is OK button type
+                reaper.ShowMessageBox("Import Complete! Your assets are now organized into subprojects by ability, with regions set up and ready for export.t", "Success", 0)
             elseif subprojects then 
                 DeleteAllTracks()
                 import_selected_items_wwise()
