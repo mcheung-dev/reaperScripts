@@ -123,7 +123,9 @@ function loop()
         
         reaper.ImGui_Dummy(ctx, 0, spacing)
 
+        _, assets = reaper.ImGui_Checkbox(ctx, 'Generate Subprojects & Regions for each sound type', assets)
     
+        reaper.ImGui_Dummy(ctx, 0, spacing)
 
         --- Big Button
         if reaper.ImGui_Button(ctx, 'Create Session', -FLOATMIN, 50) then
@@ -141,10 +143,12 @@ function loop()
                 import_selected_items_wwise()
                 OrganizeByName()
                 CreateSubprojectsWithRegions()
+                
                 reaper.ShowMessageBox("Import Complete! Your assets are now organized into subprojects by ability, with regions set up and ready for export.t", "Success", 0)
             elseif subprojects then 
                 DeleteAllTracks()
                 import_selected_items_wwise()
+
                 OrganizeByName()
                 CreateSubprojects()
                 reaper.ShowMessageBox("Import Complete! Your assets are now organized into separate subprojects by ability", "Success", 0) -- "0" is OK button type
@@ -157,7 +161,7 @@ function loop()
         
             reaper.Undo_EndBlock("Create Session", -1)
         end
-
+::eof::
         
         reaper.ImGui_PopStyleColor(ctx, 2) 
 

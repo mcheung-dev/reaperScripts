@@ -92,12 +92,15 @@ def main():
 
     if not filepath_list:
         RPR_ShowConsoleMsg("No sound files found in the selected Work Unit!\n")
+        return False  #false if no files are retrieved
     else:
         for filepath in filepath_list:
             RPR_InsertMedia(filepath, 0)
+        return True
 
 if __name__ == "__main__":
-    main()
+    success = main()
+    exit(0 if success else 1)
 ########################
 
 
