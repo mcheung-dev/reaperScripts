@@ -30,6 +30,8 @@ if not imgui_exists or not sws_exists or not js_exists then
   goto eof
 end
 
+
+
 --- global variables 
 ScriptVersion = "1.0"
 ScriptName = 'MC_Skin Import Tool'
@@ -41,6 +43,7 @@ dofile(reaper.GetResourcePath() ..
 package.path = debug.getinfo(1,"S").source:match[[^@?(.*[\/])[^\/]-$]] .."?.lua;".. package.path
 
 require('Functions/User Interface')
+
 
 local proj = 0
 reaper.defer(loop)

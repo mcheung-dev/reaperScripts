@@ -1,17 +1,38 @@
 -- @noindex
 
+
+-- password protection setup
+local ext_state_key = "MC_Skin_Import_Tool"
+local password_set = reaper.GetExtState(ext_state_key, "authenticated")
+
+if password_set ~= "1" then
+    local correct_password = "riotaudio"  
+    local retval, user_input = reaper.GetUserInputs("Enter Password", 1, "Password:", "")
+
+    if not retval or user_input ~= correct_password then
+        reaper.ShowMessageBox("Incorrect Password. Access Denied.", "Error", 0)
+        goto eof
+    end
+
+    -- save authentication state so user doesn't need to enter again
+    reaper.SetExtState(ext_state_key, "authenticated", "1", true)
+end
+
+
+
+
 --- global variables 
 ScriptVersion = "1.0"
 ScriptName = 'MC_Skin Import Tool'
 
-
 --- Load Functions 
 require('Functions/Create Subproject')
-require('Functions/Organize By Name') ---d
+require('Functions/Organize By Name') --- 
+
 
 local ctx = reaper.ImGui_CreateContext('MC_Skins_Import_Reaper')
 local window_name = ScriptName..' '..ScriptVersion
-local guiW = 330
+local guiW = 340
 local guiH = 470
 local spacing = 10
 local font = reaper.ImGui_CreateFont('roboto', 15)
@@ -25,17 +46,6 @@ function import_selected_items_wwise() -- calling python function to import sele
      reaper.Main_OnCommand(reaper.NamedCommandLookup("_RSd18f9e705831271ddbd73351717444f8c07bf82c"), 0)
 end
 
--- function import_selected_items_wwise()
---     -- Replace "Your Script Name" with the action's exact name in REAPER
---     local cmd_id = reaper.NamedCommandLookup(reaper.ReverseNamedCommandLookup("mc_import_all_selected_objects"))
---     if cmd_id ~= 0 then
---         reaper.Main_OnCommand(cmd_id, 0)
---     else
---         reaper.ShowMessageBox("Script not found in ReaPack!", "Error", 0)
---     end
--- end
-
---local demo = require('Functions/ReaImGui_Demo1') - style editor
 
 -- attaching font
 reaper.ImGui_Attach(ctx, font)
@@ -61,9 +71,12 @@ function loop()
      local visible, open = reaper.ImGui_Begin(ctx, window_name, true, window_flags)
     if visible then
 
+        
+
         -- instructions  
         reaper.ImGui_PushFont(ctx, menufont)
         reaper.ImGui_PushTextWrapPos(ctx, 0) 
+        reaper.ImGui_SameLine(ctx)
         reaper.ImGui_Text(ctx, "Riot Skins Session Setup Tool")
         reaper.ImGui_PopTextWrapPos(ctx)  
         reaper.ImGui_PopFont(ctx)
@@ -73,7 +86,7 @@ function loop()
         reaper.ImGui_Dummy(ctx, 5, 5) 
 
         reaper.ImGui_PushTextWrapPos(ctx, 0) 
-        reaper.ImGui_Text(ctx, 'This Tool is designed to streamline skin set up by \nimporting and organizing all assets.')
+        reaper.ImGui_Text(ctx, 'This tool is designed to streamline skin set up by \nimporting and organizing all needed assets and help save you time.')
         reaper.ImGui_Dummy(ctx, 0, spacing)
         reaper.ImGui_PopTextWrapPos(ctx)  
 
@@ -150,7 +163,7 @@ function loop()
         reaper.ImGui_PopStyleColor(ctx, 2) 
 
         reaper.ImGui_Dummy(ctx, 100, 0) -- Add space
-        reaper.ImGui_SameLine(ctx, 190)
+        reaper.ImGui_SameLine(ctx, 210)
         reaper.ImGui_PushFont(ctx, font_small)
         reaper.ImGui_Text(ctx, "developed by Michael Cheung")
         reaper.ImGui_PopFont(ctx) -- Restore to previous font
@@ -205,4 +218,5 @@ function PopTheme()
     reaper.ImGui_PopStyleColor(ctx, 20)
 end
 
+::eof::
 
