@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e">
+<index version="1" name="mc_reaperScripts" commit="0b6c1e91ab33282ac26083f8331191a174fa7220">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -72,21 +72,6 @@
     <reapack name="mc_Set All Tracks to 0dB.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T21:39:25Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/6f1cdcee01aaa37164e1f776ae1bffe119f80851/Scripts/mc_Set%20All%20Tracks%20to%200dB.lua</source>
-      </version>
-    </reapack>
-  </category>
-  <category name="Tools/mc_skin_session_setup_tool">
-    <reapack name="mc_import_all_selected_objects.py" type="script">
-      <version name="1.0" author="mcheung" time="2025-02-24T23:19:53Z">
-        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/80aeabff475454ca4dc962d0e1c84bce6f6f0282/Tools/mc_skin_session_setup_tool/mc_import_all_selected_objects.py</source>
-      </version>
-    </reapack>
-    <reapack name="mc_Riot_Skins_Setup_Tool.lua" type="script">
-      <version name="1.1" author="mcheung" time="2025-02-25T01:18:42Z">
-        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e/Tools/mc_skin_session_setup_tool/mc_Riot_Skins_Setup_Tool.lua</source>
-        <source file="Functions/Create Subproject.lua">https://github.com/mcheung-dev/reaperScripts/raw/0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e/Tools/mc_skin_session_setup_tool/Functions/Create%20Subproject.lua</source>
-        <source file="Functions/Organize by Name.lua">https://github.com/mcheung-dev/reaperScripts/raw/0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e/Tools/mc_skin_session_setup_tool/Functions/Organize%20by%20Name.lua</source>
-        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/0bf4670c8e9a2dd98f8078a4f236d0eb8a98bf7e/Tools/mc_skin_session_setup_tool/Functions/User%20Interface.lua</source>
       </version>
     </reapack>
   </category>
