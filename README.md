@@ -10,6 +10,7 @@ https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/in
 # Tools 
 ## mc_FastFileRenamer 
 This tool is designed to assist with renaming assets within Reaper. It replicates the functionality of the FastFileRenamer windows app, enabling you to replace, remove, and insert patterns effortlessly—all with a single click.
+
 ![Screenshot 2025-03-10 182907](https://github.com/user-attachments/assets/e64a0521-9e18-495d-97c1-2f10e7277bdd)
 ![Screenshot 2025-03-10 182901](https://github.com/user-attachments/assets/ce5812c9-b574-4f97-b450-5c2bd53c0409)
 
