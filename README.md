@@ -6,8 +6,16 @@ SWS and the js_ReaScriptAPI extensions are both required to be installed for sel
 You can install these scripts by using ReaPack. In Reaper, go to the menu bar: Extension > ReaPack > Import Repositories... and copy and past the link below into the dialogue box.
 
 https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/index.xml
+![Screenshot 2025-03-10 182907](https://github.com/user-attachments/assets/e64a0521-9e18-495d-97c1-2f10e7277bdd)
+![Screenshot 2025-03-10 182901](https://github.com/user-attachments/assets/ce5812c9-b574-4f97-b450-5c2bd53c0409)
+![Screenshot 2025-03-10 182904](https://github.com/user-attachments/assets/e0a13645-9fa6-4f97-8f66-1188f861cb4b)
 
-# Actions 
+
+# Tools 
+## mc_FastFileRenamer 
+This tool is designed to assist with renaming assets within Reaper. It replicates the functionality of the FastFileRenamer windows app, enabling you to replace, remove, and insert patterns effortlessly—all with a single click.
+
+# Scripts
 * mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE
 * mc - Move Selected Tracks to Top Below VIDEO & REFERENCE
 * mc - Auto Name Region based off Track Name 
