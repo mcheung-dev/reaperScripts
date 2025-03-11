@@ -1,5 +1,5 @@
 # Reaper Scripts for Game Audio and Sound Design
-This is a database of scripts that I wrote for Reaper DAW. Thought I'd share them as they are useful for my workflow and could be useful for the community as well. Enjoy!
+This is a database of scripts that I wrote for Reaper DAW. Sharing them here for the game audio community as well. Enjoy!
 
 SWS and the js_ReaScriptAPI extensions are both required to be installed for select scripts to work correctly.
 # Installation 
@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/in
 
 # Tools 
 ## mc_FastFileRenamer - Batch File Renamer Tool
-This tool is designed to assist with renaming assets within Reaper. It replicates the functionality of the FastFileRenamer windows app, enabling you to replace, remove, and insert patterns effortlessly—all with a single click.
+This tool is designed to assist with renaming media items within Reaper. It replicates the functionality of the FastFileRenamer windows app, enabling you to replace, remove, and insert naming patterns effortlessly—all with a single click.
 
 ![Screenshot 2025-03-10 182907](https://github.com/user-attachments/assets/e64a0521-9e18-495d-97c1-2f10e7277bdd)
 ![Screenshot 2025-03-10 182901](https://github.com/user-attachments/assets/ce5812c9-b574-4f97-b450-5c2bd53c0409)
