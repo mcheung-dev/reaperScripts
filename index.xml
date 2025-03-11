@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="d7a874c33650f948efa7835bac07c594e5691d92">
+<index version="1" name="mc_reaperScripts" commit="f8de7473a85089f94580918be085a004ac48e320">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/c80c5daebd893187c583564c925d811decf59929/Scripts/mc_Auto%20Increment%20Duplicate%20Regions.lua</source>
+      </version>
+      <version name="1.2" author="mcheung" time="2025-03-11T05:06:57Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/f8de7473a85089f94580918be085a004ac48e320/Scripts/mc_Auto%20Increment%20Duplicate%20Regions.lua</source>
       </version>
     </reapack>
     <reapack name="mc_AutoName Region based off Track Name.lua" type="script">
