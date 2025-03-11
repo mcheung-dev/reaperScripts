@@ -8,7 +8,7 @@ You can install these scripts by using ReaPack. In Reaper, go to the menu bar: E
 https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/index.xml
 
 # Tools 
-## mc_FastFileRenamer 
+## mc_FastFileRenamer - Fast & Easy Bulk File Renamer
 This tool is designed to assist with renaming assets within Reaper. It replicates the functionality of the FastFileRenamer windows app, enabling you to replace, remove, and insert patterns effortlessly—all with a single click.
 
 ![Screenshot 2025-03-10 182907](https://github.com/user-attachments/assets/e64a0521-9e18-495d-97c1-2f10e7277bdd)
