@@ -42,7 +42,7 @@ function InsertBefore(pattern_to_insert, insert_location)
     end
 
     if renamed_count > 0 then 
-        local msg = string.format("Removed Pattern: %s in %d items", pattern_remove, renamed_count)
+        local msg = string.format("Inserted pattern %s in %d items", pattern_to_insert, renamed_count)
         reaper.ShowMessageBox(msg, "Results", 0)
     else 
         reaper.ShowMessageBox("Original Pattern not found in selected items", 'error', 0)
