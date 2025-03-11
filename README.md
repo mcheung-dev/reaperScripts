@@ -1,5 +1,5 @@
 # Reaper Scripts for Game Audio and Sound Design
-This is a database of scripts that I wrote for Reaper DAW. Thought I'd share them as they are useful for my workflow and could be useful for the community as well. Enjoy!
+This is a database of scripts that I wrote for Reaper DAW. Sharing them here for the game audio community as well. Enjoy!
 
 SWS and the js_ReaScriptAPI extensions are both required to be installed for select scripts to work correctly.
 # Installation 
