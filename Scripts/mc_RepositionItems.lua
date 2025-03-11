@@ -2,13 +2,6 @@
 -- @version 1.0 
 function main()
 
--- count selected items 
-
--- get items starting location & length 
--- get ending position 
--- first item does not move 
--- set next item to prev ending position + user number
-
 userDuration = 0.5
 
 numOfSelectedItems = reaper.CountSelectedMediaItems(0)
@@ -45,7 +38,7 @@ if numOfSelectedItems > 1 then
     
     end
     
-    end
+  end
 
 main()
   

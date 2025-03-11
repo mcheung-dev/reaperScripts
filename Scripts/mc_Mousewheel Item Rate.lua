@@ -1,52 +1,40 @@
--- @author mcheung
+-- @author mcheung 
 -- @version 1.0 
--- Adjustment to script by LEWIS HAINES AUDIO to work for all takes in media item. 
+-- script that allows you to modify item rate with mousewheel
+multiplier_amount = 0.10
 
--- CHANGE THIS TO MODIFY RATE CHANGE INTENSITY
-scalingAmount = 0.15
-
--- GET ACTION CONTEXT & ESTABLISH MINIMUM RATE
 local is_new, filename, sectionID, cmdID, mode, resolution, val = reaper.get_action_context() 
-pitchRateMinimum = 0.001
+min_pitch_rate = 0.001
 
--- GET MOUSE DIRECTION
 if val == 0 or not is_new then return end
-local rateMod = (val > 0) and scalingAmount or -scalingAmount
+local rateMod = (val > 0) and multiplier_amount or -multiplier_amount
 
--- SELECT ITEM UNDER CURSOR
-reaper.Main_OnCommand(40528, 0)
+reaper.Main_OnCommand(40528, 0) -- Item: Open in built-in media explorer (preview)
 
--- GET SELECTED MEDIA ITEM
-selItem = reaper.GetSelectedMediaItem(0, 0)
-if not selItem then return end
+item = reaper.GetSelectedMediaItem(0, 0)
+if not item then return end
 
--- LOOP THROUGH ALL TAKES
-local numTakes = reaper.GetMediaItemNumTakes(selItem)
-for takeIdx = 0, numTakes - 1 do
-    local selTake = reaper.GetMediaItemTake(selItem, takeIdx)
-    if selTake then
-        -- GET MEDIA ITEM AND TAKE INFO
-        local curLength = reaper.GetMediaItemInfo_Value(selItem, "D_LENGTH")
-        local curRate = reaper.GetMediaItemTakeInfo_Value(selTake, "D_PLAYRATE")
-        local itpPitch = reaper.GetMediaItemTakeInfo_Value(selTake, "B_PPITCH")
+local total_takes = reaper.GetMediaItemNumTakes(item)
+for i = 0, total_takes - 1 do
+    local take = reaper.GetMediaItemTake(item, i)
+    if take then
+        local length = reaper.GetMediaItemInfo_Value(item, "D_LENGTH")
+        local playrate = reaper.GetMediaItemTakeInfo_Value(take, "D_PLAYRATE")
+        local perserve_pitch = reaper.GetMediaItemTakeInfo_Value(take, "B_PPITCH")
         
-        -- TURN OFF PRESERVE PITCH ON ITEM
-        if itpPitch == 1 then
-            reaper.SetMediaItemTakeInfo_Value(selTake, "B_PPITCH", 0)
+        if perserve_pitch == 1 then
+            reaper.SetMediaItemTakeInfo_Value(take, "B_PPITCH", 0)
         end
         
-        -- RATE & LENGTH CALCULATION
-        if curRate >= pitchRateMinimum or rateMod < 0 then
-            local newRate = curRate * (1 - rateMod)
-            local newLength = curLength / (1 - rateMod)
+        if playrate >= min_pitch_rate or rateMod < 0 then
+            local newRate = playrate * (1 - rateMod)
+            local newLength = length / (1 - rateMod)
 
-            -- CHANGE ITEM RATE
-            reaper.SetMediaItemTakeInfo_Value(selTake, "D_PLAYRATE", newRate)
-            reaper.SetMediaItemInfo_Value(selItem, "D_LENGTH", newLength)
+            reaper.SetMediaItemTakeInfo_Value(take, "D_PLAYRATE", newRate)
+            reaper.SetMediaItemInfo_Value(item, "D_LENGTH", newLength)
         end
     end
 end
 
--- UPDATE ARRANGE VIEW
 reaper.UpdateArrange()
-reaper.defer(function() end)
+reaper.defer(function() end) -- using defer function because script may be ran repeatedly 
