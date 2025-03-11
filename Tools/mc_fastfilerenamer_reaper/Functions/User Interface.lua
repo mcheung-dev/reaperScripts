@@ -22,7 +22,7 @@ local mode = 0  -- 0 = replace, 1 = remove, 2 = insert
 
 local mode_heights = {
     [0] = 240,  -- height for Replace mode
-    [1] = 215,  -- height for Remove mode
+    [1] = 215,  -- height for Remove mode --
     [2] = 246   -- height for Insert mode
 }
 
