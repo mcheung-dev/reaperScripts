@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="f8de7473a85089f94580918be085a004ac48e320">
+<index version="1" name="mc_reaperScripts" commit="9af88f1bdf8d0c91971546468d7905d9f3ba4d8b">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -79,14 +79,13 @@
     </reapack>
   </category>
   <category name="Tools/mc_fastfilerenamer_reaper">
-    <reapack name="mc_fastfilerenamer_reaper.lua" type="script">
-      <version name="1.1" author="mcheung" time="2025-03-11T01:30:27Z">
-        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/d7a874c33650f948efa7835bac07c594e5691d92/Tools/mc_fastfilerenamer_reaper/mc_fastfilerenamer_reaper.lua</source>
-        <source file="Functions/Insert.lua">https://github.com/mcheung-dev/reaperScripts/raw/d7a874c33650f948efa7835bac07c594e5691d92/Tools/mc_fastfilerenamer_reaper/Functions/Insert.lua</source>
-        <source file="Functions/ReaImGui_Demo.lua">https://github.com/mcheung-dev/reaperScripts/raw/d7a874c33650f948efa7835bac07c594e5691d92/Tools/mc_fastfilerenamer_reaper/Functions/ReaImGui_Demo.lua</source>
-        <source file="Functions/Remove.lua">https://github.com/mcheung-dev/reaperScripts/raw/d7a874c33650f948efa7835bac07c594e5691d92/Tools/mc_fastfilerenamer_reaper/Functions/Remove.lua</source>
-        <source file="Functions/Replace.lua">https://github.com/mcheung-dev/reaperScripts/raw/d7a874c33650f948efa7835bac07c594e5691d92/Tools/mc_fastfilerenamer_reaper/Functions/Replace.lua</source>
-        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/d7a874c33650f948efa7835bac07c594e5691d92/Tools/mc_fastfilerenamer_reaper/Functions/User%20Interface.lua</source>
+    <reapack name="mc_fastfilerenamer_tool.lua" type="script">
+      <version name="1.1" author="mcheung" time="2025-03-11T05:52:19Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/9af88f1bdf8d0c91971546468d7905d9f3ba4d8b/Tools/mc_fastfilerenamer_reaper/mc_fastfilerenamer_tool.lua</source>
+        <source file="Functions/Insert.lua">https://github.com/mcheung-dev/reaperScripts/raw/9af88f1bdf8d0c91971546468d7905d9f3ba4d8b/Tools/mc_fastfilerenamer_reaper/Functions/Insert.lua</source>
+        <source file="Functions/Remove.lua">https://github.com/mcheung-dev/reaperScripts/raw/9af88f1bdf8d0c91971546468d7905d9f3ba4d8b/Tools/mc_fastfilerenamer_reaper/Functions/Remove.lua</source>
+        <source file="Functions/Replace.lua">https://github.com/mcheung-dev/reaperScripts/raw/9af88f1bdf8d0c91971546468d7905d9f3ba4d8b/Tools/mc_fastfilerenamer_reaper/Functions/Replace.lua</source>
+        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/9af88f1bdf8d0c91971546468d7905d9f3ba4d8b/Tools/mc_fastfilerenamer_reaper/Functions/User%20Interface.lua</source>
       </version>
     </reapack>
   </category>
