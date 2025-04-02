@@ -1,9 +1,8 @@
--- @author mcheung
--- @version 1.0 
 -- Adjustment to script by LEWIS HAINES AUDIO to work for all takes in media item. 
+-- @version 1.0 
 
 -- CHANGE THIS TO MODIFY RATE CHANGE INTENSITY
-scalingAmount = 0.15
+scalingAmount = 0.05
 
 -- GET ACTION CONTEXT & ESTABLISH MINIMUM RATE
 local is_new, filename, sectionID, cmdID, mode, resolution, val = reaper.get_action_context() 
@@ -25,27 +24,24 @@ local numTakes = reaper.GetMediaItemNumTakes(selItem)
 for takeIdx = 0, numTakes - 1 do
     local selTake = reaper.GetMediaItemTake(selItem, takeIdx)
     if selTake then
-        -- GET MEDIA ITEM AND TAKE INFO
-        local curLength = reaper.GetMediaItemInfo_Value(selItem, "D_LENGTH")
         local curRate = reaper.GetMediaItemTakeInfo_Value(selTake, "D_PLAYRATE")
         local itpPitch = reaper.GetMediaItemTakeInfo_Value(selTake, "B_PPITCH")
         
-        -- TURN OFF PRESERVE PITCH ON ITEM
         if itpPitch == 1 then
             reaper.SetMediaItemTakeInfo_Value(selTake, "B_PPITCH", 0)
         end
         
-        -- RATE & LENGTH CALCULATION
         if curRate >= pitchRateMinimum or rateMod < 0 then
             local newRate = curRate * (1 - rateMod)
-            local newLength = curLength / (1 - rateMod)
-
-            -- CHANGE ITEM RATE
             reaper.SetMediaItemTakeInfo_Value(selTake, "D_PLAYRATE", newRate)
-            reaper.SetMediaItemInfo_Value(selItem, "D_LENGTH", newLength)
         end
     end
 end
+
+-- UPDATE THE MEDIA ITEM LENGTH ONCE
+local curLength = reaper.GetMediaItemInfo_Value(selItem, "D_LENGTH")
+local newLength = curLength / (1 - rateMod)
+reaper.SetMediaItemInfo_Value(selItem, "D_LENGTH", newLength)
 
 -- UPDATE ARRANGE VIEW
 reaper.UpdateArrange()
