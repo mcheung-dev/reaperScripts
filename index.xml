@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="34971236bb6e6463d17b2a848c18536a03991e1f">
+<index version="1" name="mc_reaperScripts" commit="b36ed200408eb7b9938047521cd018e0a3a8a7ca">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -101,7 +101,7 @@
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Reaper Scripts for Game Audio and Sound Design\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This is a database of scripts that I wrote for Reaper DAW. Sharing them here for the game audio community as well. Enjoy!\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 SWS and the js_ReaScriptAPI extensions are both required to be installed for select scripts to work correctly.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 SWS, js_ReaScriptAPI and ReaImGui extensions are required to be installed for scripts to work correctly.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Installation\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 You can install these scripts by using ReaPack. In Reaper, go to the menu bar: Extension > ReaPack > Import Repositories... and copy and past the link below into the dialogue box.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/index.xml\par}
