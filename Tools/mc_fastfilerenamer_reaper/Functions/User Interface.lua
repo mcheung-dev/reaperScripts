@@ -6,7 +6,7 @@ require('Functions/Remove')
 require('Functions/Insert')
 
 local ctx = reaper.ImGui_CreateContext('mc_fastfilerenamer')
-local window_name = "mc_FastFileRenamer"
+local window_name = "MC_FastFileRenamer"
 local samelinespacing = 115
 local inputboxwidth = 130
 local font = reaper.ImGui_CreateFont('Cleon Sans', 14)
@@ -21,9 +21,9 @@ local selected_item = 2
 local mode = 0  -- 0 = replace, 1 = remove, 2 = insert
 
 local mode_heights = {
-    [0] = 240,  -- height for Replace mode
-    [1] = 215,  -- height for Remove mode --
-    [2] = 246   -- height for Insert mode
+    [0] = 245,  -- height for Replace mode
+    [1] = 220,  -- height for Remove mode --
+    [2] = 251   -- height for Insert mode
 }
 
 -- local demo = require('Functions/ReaImGui_Demo') 
@@ -78,7 +78,7 @@ function loop()
         
         reaper.ImGui_PushFont(ctx, menufont)
         reaper.ImGui_PushTextWrapPos(ctx, 0) 
-        reaper.ImGui_Text(ctx, "FastFileRenamer")
+        reaper.ImGui_Text(ctx, "MC_FastFileRenamer")
         reaper.ImGui_PopTextWrapPos(ctx)  
         reaper.ImGui_PopFont(ctx)
 
@@ -154,7 +154,7 @@ function loop()
         -- reaper.ImGui_Spacing(ctx)
         --- Big Button ---------------------- 
 
-        if reaper.ImGui_Button(ctx, 'Rename!', -FLOATMIN, 50) then
+        if reaper.ImGui_Button(ctx, 'Rename!', -FLOATMIN, 54) then
             if mode == 0 then 
                 Replace(original_pattern, new_pattern)
             elseif mode == 1 then 
