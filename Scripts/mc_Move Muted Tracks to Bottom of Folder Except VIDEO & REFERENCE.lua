@@ -8,14 +8,23 @@ reaper.PreventUIRefresh(1)
 local track_count = reaper.CountTracks(0)
 local folder_map = {}
 
+local function should_exclude_track(track)
+    local retval, track_name = reaper.GetTrackName(track)
+    if retval then
+        track_name = track_name:lower()
+        if track_name:find("video") or track_name:find("reference") then
+            return true
+        end
+    end
+    return false
+end
 
 for i = 0, track_count - 1 do
     local track = reaper.GetTrack(0, i)
     if track then
-
         local parent = reaper.GetParentTrack(track)
         
-        if parent then
+        if parent and not should_exclude_track(track) then
             if not folder_map[parent] then
                 folder_map[parent] = {tracks = {}, muted_tracks = {}}
             end

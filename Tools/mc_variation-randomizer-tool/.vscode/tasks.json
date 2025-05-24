@@ -1,0 +1,15 @@
+{   
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Reaper Script",
+            "type": "shell",
+            "command": "G:/_Software/REAPER/reaper.exe",
+            "args": [
+                "-nonewinst",
+                "${file}"
+            ],
+            "problemMatcher": [],           
+        } 
+    ]
+}
