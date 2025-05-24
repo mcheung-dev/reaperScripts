@@ -1,3 +1,4 @@
+--@noindex
 function RandomizeSelectedItems(proj)
     -- User settings
     local min_pos = Settings.pos.min -- in ms

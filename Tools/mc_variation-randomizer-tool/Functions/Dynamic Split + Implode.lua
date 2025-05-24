@@ -1,4 +1,5 @@
-﻿function implode_takes()
+﻿--@noindex
+function implode_takes()
 -- helper: wait N seconds then call cb()
     local function wait(seconds, cb)
         local start = reaper.time_precise()

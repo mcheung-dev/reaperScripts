@@ -1,4 +1,4 @@
-
+--@noindex
 --- General Functions
 ---Map/Scale Val between range 1 (min1 - max1) to range 2 (min2 - max2)
 ---@param value number Value to be mapped

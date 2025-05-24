@@ -1,8 +1,8 @@
 -- @author mcheung
 -- @version 1.1
 -- @provides 
---[nomain] Functions/*.lua
---[file] Presets/*.json
+--     [nomain] Functions/*.lua
+--     [file] Presets/*.json
 
 ------check to see if user has required dependencies need for tool to run
 local imgui_exists = reaper.APIExists("ImGui_GetVersion")
