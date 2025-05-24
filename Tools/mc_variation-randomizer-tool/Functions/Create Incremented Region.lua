@@ -1,3 +1,4 @@
+--@noindex
 -- global variable to store last selected region name
 lastSelectedRegionName = nil
 
