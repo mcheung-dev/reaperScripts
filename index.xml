@@ -117,14 +117,14 @@
 {\pard \ql \f0 \sa180 \li0 \fi0 You can install these scripts by using ReaPack. In Reaper, go to the menu bar: Extension > ReaPack > Import Repositories... and copy and past the link below into the dialogue box.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/index.xml\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Tools\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 MC_FastFileRenamer - Batch File Renamer Tool\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This tool is designed to assist with renaming media items within Reaper. It replicates the functionality of the FastFileRenamer desktop app, enabling you to replace, remove, and insert naming patterns effortlessly\u8212-all with a single click.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/user-attachments/assets/7983ed5b-69e5-49f4-bd9c-79d50b4f5cd9]\cf0}\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 MC_Variation Generator - One-Click Variations!\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This tool is designed to make variations creation easy. One tap to duplicates your layers, randomizes key parameters, and region creation for effortless variety.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/user-attachments/assets/e15c8622-5a9f-43a9-b3a0-6a183810f0dc]\cf0}\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Implode Takes Feature\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/user-attachments/assets/796e628f-b96e-41bc-b888-24b4b2a340eb]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 MC_FastFileRenamer - Batch File Renamer Tool\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This tool is designed to assist with renaming media items within Reaper. It replicates the functionality of the FastFileRenamer desktop app, enabling you to replace, remove, and insert naming patterns effortlessly\u8212-all with a single click.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/user-attachments/assets/7983ed5b-69e5-49f4-bd9c-79d50b4f5cd9]\cf0}\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Scripts List\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\i mc_Auto Increment Duplicate Regions}\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Automatically renames duplicate regions with incremental numbers (_01, _02, etc.)\par}
