@@ -2,7 +2,7 @@
 -- @version 1.0 
 function main()
 
-userDuration = 0.5
+userDuration = 0.5 -- Adjust this for time value
 
 numOfSelectedItems = reaper.CountSelectedMediaItems(0)
 
