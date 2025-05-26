@@ -16,18 +16,60 @@ This tool is designed to assist with renaming media items within Reaper. It repl
 ![Screenshot 2025-03-10 182907](https://github.com/user-attachments/assets/e64a0521-9e18-495d-97c1-2f10e7277bdd)
 
 
-# Scripts
-* mc - Move Muted Tracks to Bottom Except Tracks Named VIDEO & REFERENCE
-* mc - Move Selected Tracks to Top Below VIDEO & REFERENCE
-* mc - Auto Name Region based off Track Name 
-* mc - Find Items in Session by Name and Center Camera View 
-* mc - Move Items to Cursor Location 
-* mc - Reposition Items with 0.5s in between
-* mc - Select All Items Under ItemLength Threshold
-* mc - Auto Increment Duplicate Regions
-* mc - Delete Unused Tracks
-* mc - Move items to mouse location
-* mc - Set All Tracks to 0dB
+## Scripts List
+
+* *mc_Auto Increment Duplicate Regions*
+   - Automatically renames duplicate regions with incremental numbers (_01, _02, etc.)
+   - Particularly useful for organizing render export regions
+
+* *mc_Auto Increment Items*
+   - Automatically renames selected items with incremental numbers, works with different naming patterns (eg SFX_01, SFX_02, SFX_03, VO_01, VO_02, VO_03)
+
+* *mc_Create Region from Selected Items*
+   - Creates a new region that encompasses all currently selected items
+
+* *mc_Mousewheel Item Rate*
+   - Adjusts media item playback rate using the mousewheel
+
+* *mc_Move items to mouse location*
+   - Moves selected items to the current mouse cursor position
+   - Quick repositioning of media without dragging
+
+* *mc_Move Muted Tracks to Bottom Except VIDEO & REFERENCE*
+   - Organizes project by moving muted tracks to the bottom
+   - Preserves the position of tracks named "VIDEO" or "REFERENCE"
+
+* *mc_Move Muted Tracks to Bottom of Folder Except VIDEO & REFERENCE*
+   - Moves muted tracks to the bottom within their folder structure
+   - Preserves the position of tracks named "VIDEO" or "REFERENCE"
+
+* *mc_Move Selected Tracks to Top Below VIDEO & REFERENCE*
+   - Repositions selected tracks to the top of the project
+   - Places them just below tracks named "VIDEO" or "REFERENCE"
+
+* *mc_Remove Unused Tracks*
+   - Identifies and removes tracks that don't contain any media items
+   - Helps clean up and optimize projects
+
+* *mc_Render Time Selection to Stereo*
+   - Renders the current time selection to a stereo file
+
+* *mc_RepositionItems*
+   - Arranges selected items sequentially with specified gaps
+   - Useful for organizing sound effects or dialogue clips
+
+* *mc_Reset MediaItem Rate*
+   - Resets playback rate of selected items to original speed
+   - Adjusts item length to preserve content duration
+   - Maintains fade proportions
+
+* *mc_Select items under length threshold on selected tracks*
+   - Selects items that are shorter than a specified duration
+   - Helps identify and manage very short audio clips
+
+* *mc_Set All Tracks to 0dB*
+   - Resets the volume of all tracks to 0dB (unity gain)
+   - Quick way to normalize track volumes
 
 
 
