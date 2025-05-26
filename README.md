@@ -16,10 +16,9 @@ This tool is designed to assist with renaming media items within Reaper. It repl
 ## mc_Variation Generator - One-Click Variations!
 This tool is designed to make variations creation easy. One tap to duplicates your layers, randomizes key parameters, and region creation for effortless variety.
 
-![Untitledvideo-MadewithClipchamp1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7983ed5b-69e5-49f4-bd9c-79d50b4f5cd9)
+![gif-001-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e15c8622-5a9f-43a9-b3a0-6a183810f0dc)
 
-
-
+![gif-002-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/796e628f-b96e-41bc-b888-24b4b2a340eb)
 
 ## Scripts List
 
