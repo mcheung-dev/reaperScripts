@@ -8,17 +8,17 @@ You can install these scripts by using ReaPack. In Reaper, go to the menu bar: E
 https://raw.githubusercontent.com/mcheung-dev/reaperScripts/refs/heads/master/index.xml
 
 # Tools 
-## MC_FastFileRenamer - Batch File Renamer Tool
-This tool is designed to assist with renaming media items within Reaper. It replicates the functionality of the FastFileRenamer desktop app, enabling you to replace, remove, and insert naming patterns effortlessly—all with a single click.
-
-![Untitledvideo-MadewithClipchamp1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7983ed5b-69e5-49f4-bd9c-79d50b4f5cd9)
-
 ## MC_Variation Generator - One-Click Variations!
 This tool is designed to make variations creation easy. One tap to duplicates your layers, randomizes key parameters, and region creation for effortless variety.
 
 ![gif-001-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e15c8622-5a9f-43a9-b3a0-6a183810f0dc)
 ### Implode Takes Feature
 ![gif-002-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/796e628f-b96e-41bc-b888-24b4b2a340eb)
+
+## MC_FastFileRenamer - Batch File Renamer Tool
+This tool is designed to assist with renaming media items within Reaper. It replicates the functionality of the FastFileRenamer desktop app, enabling you to replace, remove, and insert naming patterns effortlessly—all with a single click.
+
+![Untitledvideo-MadewithClipchamp1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7983ed5b-69e5-49f4-bd9c-79d50b4f5cd9)
 
 ## Scripts List
 
