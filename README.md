@@ -44,31 +44,29 @@ This tool is designed to assist with renaming media items within Reaper. It repl
    - Preserves the position of tracks named "VIDEO" or "REFERENCE"
 
 * *mc_Move Selected Tracks to Top Below VIDEO & REFERENCE*
-   - Repositions selected tracks to the top of the project
-   - Places them just below tracks named "VIDEO" or "REFERENCE"
+   - Repositions selected tracks to the top of the project just below tracks named "VIDEO" or "REFERENCE"
 
 * *mc_Remove Unused Tracks*
-   - Identifies and removes tracks that don't contain any media items
-   - Helps clean up and optimize projects
+   - Identifies and removes tracks that don't contain any media items (feel free to adjust the .lua for specific properties)
+   - Helps clean up visual clutter
 
 * *mc_Render Time Selection to Stereo*
-   - Renders the current time selection to a stereo file
+   - Renders the current time selection to a stereo file to track below, mute original
 
 * *mc_RepositionItems*
-   - Arranges selected items sequentially with specified gaps
+   - Arranges selected items sequentially with specified gaps (default 0.5, adjust .lua for time value)
    - Useful for organizing sound effects or dialogue clips
 
 * *mc_Reset MediaItem Rate*
    - Resets playback rate of selected items to original speed
-   - Adjusts item length to preserve content duration
-   - Maintains fade proportions
+   - Adjusts item length & perserves fade properties
 
 * *mc_Select items under length threshold on selected tracks*
    - Selects items that are shorter than a specified duration
-   - Helps identify and manage very short audio clips
+   - Helps identify and manage very short audio clips for batch processing/deletion
 
 * *mc_Set All Tracks to 0dB*
-   - Resets the volume of all tracks to 0dB (unity gain)
+   - Resets the fader of all tracks to (unity gain)
    - Quick way to normalize track volumes
 
 
