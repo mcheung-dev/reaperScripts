@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="43dd2b8acbe1ceedd5a0fc95b3c303e769caea20">
+<index version="1" name="mc_reaperScripts" commit="1d42f98b512e4e4a59d81237933de2688cfe8e47">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -88,30 +88,30 @@
       </version>
     </reapack>
   </category>
-  <category name="Tools/mc_fastfilerenamer_reaper">
+  <category name="Tools/mc_FastFileRenamer">
     <reapack name="mc_FastFileRenamer.lua" type="script">
-      <version name="1.1" author="mcheung" time="2025-05-26T18:17:08Z">
-        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_fastfilerenamer_reaper/mc_FastFileRenamer.lua</source>
-        <source file="Functions/Insert.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_fastfilerenamer_reaper/Functions/Insert.lua</source>
-        <source file="Functions/Remove.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_fastfilerenamer_reaper/Functions/Remove.lua</source>
-        <source file="Functions/Replace.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_fastfilerenamer_reaper/Functions/Replace.lua</source>
-        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_fastfilerenamer_reaper/Functions/User%20Interface.lua</source>
+      <version name="1.1" author="mcheung" time="2025-05-26T18:26:18Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_FastFileRenamer/mc_FastFileRenamer.lua</source>
+        <source file="Functions/Insert.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_FastFileRenamer/Functions/Insert.lua</source>
+        <source file="Functions/Remove.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_FastFileRenamer/Functions/Remove.lua</source>
+        <source file="Functions/Replace.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_FastFileRenamer/Functions/Replace.lua</source>
+        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_FastFileRenamer/Functions/User%20Interface.lua</source>
       </version>
     </reapack>
   </category>
-  <category name="Tools/mc_variation-randomizer-tool">
+  <category name="Tools/mc_Variation Generator">
     <reapack name="mc_Variation Generator.lua" type="script">
-      <version name="1.1" author="mcheung" time="2025-05-26T18:17:08Z">
-        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/mc_Variation%20Generator.lua</source>
-        <source file="Functions/Copy Paste Selected Media Items.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/Functions/Copy%20Paste%20Selected%20Media%20Items.lua</source>
-        <source file="Functions/Create Incremented Region.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/Functions/Create%20Incremented%20Region.lua</source>
-        <source file="Functions/Dynamic Split + Implode.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/Functions/Dynamic%20Split%20+%20Implode.lua</source>
-        <source file="Functions/General Functions.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/Functions/General%20Functions.lua</source>
-        <source file="Functions/Presets.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/Functions/Presets.lua</source>
-        <source file="Functions/Randomize Function.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/Functions/Randomize%20Function.lua</source>
-        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/Functions/User%20Interface.lua</source>
-        <source file="Functions/json.lua">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/Functions/json.lua</source>
-        <source file="Presets/presets.json">https://github.com/mcheung-dev/reaperScripts/raw/43dd2b8acbe1ceedd5a0fc95b3c303e769caea20/Tools/mc_variation-randomizer-tool/Presets/presets.json</source>
+      <version name="1.1" author="mcheung" time="2025-05-26T18:26:18Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/mc_Variation%20Generator.lua</source>
+        <source file="Functions/Copy Paste Selected Media Items.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/Functions/Copy%20Paste%20Selected%20Media%20Items.lua</source>
+        <source file="Functions/Create Incremented Region.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/Functions/Create%20Incremented%20Region.lua</source>
+        <source file="Functions/Dynamic Split + Implode.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/Functions/Dynamic%20Split%20+%20Implode.lua</source>
+        <source file="Functions/General Functions.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/Functions/General%20Functions.lua</source>
+        <source file="Functions/Presets.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/Functions/Presets.lua</source>
+        <source file="Functions/Randomize Function.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/Functions/Randomize%20Function.lua</source>
+        <source file="Functions/User Interface.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/Functions/User%20Interface.lua</source>
+        <source file="Functions/json.lua">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/Functions/json.lua</source>
+        <source file="Presets/presets.json">https://github.com/mcheung-dev/reaperScripts/raw/1d42f98b512e4e4a59d81237933de2688cfe8e47/Tools/mc_Variation%20Generator/Presets/presets.json</source>
       </version>
     </reapack>
   </category>
