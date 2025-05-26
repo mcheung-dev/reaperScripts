@@ -150,25 +150,23 @@
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Moves muted tracks to the bottom within their folder structure\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Preserves the position of tracks named "VIDEO" or "REFERENCE"\sa180\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\i mc_Move Selected Tracks to Top Below VIDEO & REFERENCE}\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Repositions selected tracks to the top of the project\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Places them just below tracks named "VIDEO" or "REFERENCE"\sa180\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Repositions selected tracks to the top of the project just below tracks named "VIDEO" or "REFERENCE"\sa180\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\i mc_Remove Unused Tracks}\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Identifies and removes tracks that don't contain any media items\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Helps clean up and optimize projects\sa180\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Identifies and removes tracks that don't contain any media items (feel free to adjust the .lua for specific properties)\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Helps clean up visual clutter\sa180\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\i mc_Render Time Selection to Stereo}\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Renders the current time selection to a stereo file\sa180\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Renders the current time selection to a stereo file to track below, mute original\sa180\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\i mc_RepositionItems}\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Arranges selected items sequentially with specified gaps\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Arranges selected items sequentially with specified gaps (default 0.5, adjust .lua for time value)\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Useful for organizing sound effects or dialogue clips\sa180\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\i mc_Reset MediaItem Rate}\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Resets playback rate of selected items to original speed\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Adjusts item length to preserve content duration\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Maintains fade proportions\sa180\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Adjusts item length & perserves fade properties\sa180\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\i mc_Select items under length threshold on selected tracks}\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Selects items that are shorter than a specified duration\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Helps identify and manage very short audio clips\sa180\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Helps identify and manage very short audio clips for batch processing/deletion\sa180\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\i mc_Set All Tracks to 0dB}\par}
-{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Resets the volume of all tracks to 0dB (unity gain)\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Resets the fader of all tracks to (unity gain)\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Quick way to normalize track volumes\sa180\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Contact\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Shoot me an email at mcheungwork3@gmail.com!\par}
