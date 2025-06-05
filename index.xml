@@ -163,6 +163,9 @@
 {\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\i mc_Set All Tracks to 0dB}\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Resets the fader of all tracks to (unity gain)\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Quick way to normalize track volumes\sa180\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Troubleshooting\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Q: I'm getting this error: ImGui__init: ReaImGui 0.9.1 is too old (action requires API 0.9.3.2 or newer)\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab A: Your ReaImGui is out of date. To update, go to Extensions --> ReaPack --> Browse Packages --> Right click on ReaImGui & Update\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Contact\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Shoot me an email at mcheungwork3@gmail.com!\par}
 }
