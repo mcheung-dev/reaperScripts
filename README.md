@@ -74,7 +74,9 @@ This tool is designed to assist with renaming media items within Reaper. It repl
    - Quick way to normalize track volumes
 
 
-
+## Troubleshooting 
+* Q: I'm getting this error: ImGui__init: ReaImGui 0.9.1 is too old (action requires API 0.9.3.2 or newer)
+* A: Your ReaImGui is out of date. To update, go to Extensions --> ReaPack --> Browse Packages --> Right click on ReaImGui & Update
 
 
 
