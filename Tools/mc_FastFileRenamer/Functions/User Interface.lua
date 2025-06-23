@@ -42,7 +42,7 @@ function loop()
     -- demo.ShowDemoWindow(ctx)
    
      -- Window settings
-    local window_flags = reaper.ImGui_WindowFlags_NoResize() | reaper.ImGui_WindowFlags_NoDocking() | reaper.ImGui_WindowFlags_TopMost() | reaper.ImGui_WindowFlags_NoScrollbar()
+    local window_flags = reaper.ImGui_WindowFlags_NoResize() | reaper.ImGui_WindowFlags_NoDocking() | reaper.ImGui_WindowFlags_TopMost() | reaper.ImGui_WindowFlags_NoScrollbar() | reaper.ImGui_WindowFlags_NoScrollWithMouse()
     if pin then 
         window_flags = window_flags | reaper.ImGui_WindowFlags_TopMost()
     end
