@@ -78,4 +78,4 @@ SavePreset(presets_path, 'Default') -- create default preset
 proj = 0 -- Make proj a global variable so it's accessible in other files
 
 reaper.defer(loop)
-reaper.set_action_options(3) -- allows re-triggers of script to close existing instance and start new one
+--reaper.set_action_options(3) -- allows re-triggers of script to close existing instance and start new one
