@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="08e9619cf236255c2db1f531162775f0fc691e95">
+<index version="1" name="mc_reaperScripts" commit="e7fe5253bbece2677278c8bc09197e45768bdfb0">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -55,6 +55,11 @@
     <reapack name="mc_Render Time Selection to Stereo.lua" type="script">
       <version name="1.0" author="mcheung" time="2025-02-04T22:37:24Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/d6466dbbbea2a6a5a7b58f430ef9133e424159fc/Scripts/mc_Render%20Time%20Selection%20to%20Stereo.lua</source>
+      </version>
+    </reapack>
+    <reapack name="mc_Render Time Selection to Video.lua" type="script">
+      <version name="1.0" author="mcheung" time="2025-08-27T07:28:04Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/e7fe5253bbece2677278c8bc09197e45768bdfb0/Scripts/mc_Render%20Time%20Selection%20to%20Video.lua</source>
       </version>
     </reapack>
     <reapack name="mc_RepositionItems.lua" type="script">
