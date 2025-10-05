@@ -23,7 +23,9 @@ local mode = 0  -- 0 = replace, 1 = remove, 2 = insert
 local mode_heights = {
     [0] = 245,  -- height for Replace mode
     [1] = 220,  -- height for Remove mode --
-    [2] = 251   -- height for Insert mode
+    [2] = 251,   -- height for Insert mode
+    [4] = 285,
+    [5] = 285,
 }
 
 -- local demo = require('Functions/ReaImGui_Demo') 
@@ -129,44 +131,81 @@ function loop()
 
             reaper.ImGui_Spacing(ctx)
 
-        elseif mode == 2 then ----------------
+        elseif mode == 2 or mode == 4 or mode == 5 then ----------------
             reaper.ImGui_Text(ctx, "Pattern to \nInsert:")
             reaper.ImGui_SameLine(ctx, samelinespacing)
             reaper.ImGui_SetNextItemWidth(ctx, inputboxwidth) --- change width
             retval, pattern_to_insert = reaper.ImGui_InputTextMultiline(ctx, '##pattern', pattern_to_insert, inputboxwidth, 23, reaper.ImGui_InputTextFlags_None())
-            reaper.ImGui_Spacing(ctx) 
+            reaper.ImGui_Spacing(ctx)
 
-            local items = {"Before", "After",}
-            reaper.ImGui_SetNextItemWidth(ctx, 80) 
-            if reaper.ImGui_BeginCombo(ctx, "##n", items[selected_item]) then
-                for i, item in ipairs(items) do
-                    if reaper.ImGui_Selectable(ctx, item, selected_item == i) then
-                        selected_item = i  -- Update the selected item
-                    end
-                end
-                reaper.ImGui_EndCombo(ctx)
+            if reaper.ImGui_RadioButton(ctx, 'Before/After', mode == 4) then
+                mode = 4
             end
-            reaper.ImGui_SameLine(ctx, samelinespacing)
-            reaper.ImGui_SetNextItemWidth(ctx, inputboxwidth) --- change width
-            retval, insert_location = reaper.ImGui_InputText(ctx, '##insertlocation', insert_location, reaper.ImGui_InputTextFlags_None())
-            reaper.ImGui_Spacing(ctx) 
+            reaper.ImGui_SameLine(ctx, 250/2)
+            if reaper.ImGui_RadioButton(ctx, 'At Position', mode == 5) then
+                mode = 5
+            end
+
+            if mode == 4 then
+                local items = {"Before", "After",}
+                reaper.ImGui_Spacing(ctx)
+                reaper.ImGui_SetNextItemWidth(ctx, 80)
+                if reaper.ImGui_BeginCombo(ctx, "##n", items[selected_item]) then
+                    for i, item in ipairs(items) do
+                        if reaper.ImGui_Selectable(ctx, item, selected_item == i) then
+                            selected_item = i  -- Update the selected item
+                        end
+                    end
+                    reaper.ImGui_EndCombo(ctx)
+                end
+                reaper.ImGui_SameLine(ctx, samelinespacing)
+                reaper.ImGui_SetNextItemWidth(ctx, inputboxwidth) --- change width
+                retval, insert_location = reaper.ImGui_InputText(ctx, '##insertlocation', insert_location, reaper.ImGui_InputTextFlags_None())
+                reaper.ImGui_Spacing(ctx)
+            end
+
+            if mode == 5 then
+                reaper.ImGui_Spacing(ctx)
+                reaper.ImGui_SetNextItemWidth(ctx, inputboxwidth)
+                retval, insert_position = reaper.ImGui_InputInt(ctx, '##insertposition', insert_position or 0, 1, 10, reaper.ImGui_InputTextFlags_None())
+                -- Clamp to non-negative values
+                if insert_position < 0 then
+                    insert_position = 0
+                end
+                reaper.ImGui_Spacing(ctx)
+            end
+
+
         end
         -- reaper.ImGui_Spacing(ctx)
-        --- Big Button ---------------------- 
+        --- Big Button ----------------------
+
+        if mode == 2 or mode == 4 or mode == 5 then
+            reaper.ImGui_Dummy(ctx, 0, 3)  -- Add 5 pixels of vertical spacing
+        end
 
         if reaper.ImGui_Button(ctx, 'Rename!', -FLOATMIN, 54) then
-            if mode == 0 then 
+            if mode == 0 then
                 Replace(original_pattern, new_pattern)
-            elseif mode == 1 then 
+            elseif mode == 1 then
                 Remove(pattern_remove)
-            elseif mode == 2 then 
-                if selected_item == 1 then 
+            elseif mode == 2 then
+                if selected_item == 1 then
                     InsertBefore(pattern_to_insert, insert_location)
-                    
-                elseif selected_item == 2 then 
+
+                elseif selected_item == 2 then
                     InsertAfter(pattern_to_insert, insert_location)
                 end
-            end   
+            elseif mode == 4 then
+                if selected_item == 1 then
+                    InsertBefore(pattern_to_insert, insert_location)
+
+                elseif selected_item == 2 then
+                    InsertAfter(pattern_to_insert, insert_location)
+                end
+            elseif mode == 5 then
+                InsertAtPosition(pattern_to_insert, insert_position)
+            end
         end
        
         -- footer 
