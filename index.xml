@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="e7fe5253bbece2677278c8bc09197e45768bdfb0">
+<index version="1" name="mc_reaperScripts" commit="46946bddd2e34e2ed26d3f0919ee25add216fc82">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -12,6 +12,11 @@
     <reapack name="mc_Auto Increment Items.lua" type="script">
       <version name="1.2" author="mcheung" time="2025-03-15T17:14:45Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/34971236bb6e6463d17b2a848c18536a03991e1f/Scripts/mc_Auto%20Increment%20Items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="mc_Batch_Rename_Regions.lua" type="script">
+      <version name="1.0" author="mcheung" time="2025-12-11T19:52:13Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/46946bddd2e34e2ed26d3f0919ee25add216fc82/Scripts/mc_Batch_Rename_Regions.lua</source>
       </version>
     </reapack>
     <reapack name="mc_Create Region from Selected Items.lua" type="script">
