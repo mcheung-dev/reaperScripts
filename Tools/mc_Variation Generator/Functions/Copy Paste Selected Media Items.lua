@@ -3,11 +3,9 @@ package.path = debug.getinfo(1,"S").source:match[[^@?(.*[\/])[^\/]-$]] .."?.lua;
 require('Functions/Randomize Function')
 
 function Gettoptrack()
-    -- initialize variables
     local topmostTrack = nil
     local topmostTrackIndex = math.huge  -- Start with a very high index
-
-    -- get the number of selected media items
+    
     local numItems = reaper.CountSelectedMediaItems(0)
 
     if numItems > 0 then
@@ -23,7 +21,6 @@ function Gettoptrack()
             end
         end
 
-        -- select the topmost track
         if topmostTrack then
             reaper.SetOnlyTrackSelected(topmostTrack) -- Select only the topmost track
         end
@@ -37,7 +34,6 @@ function copy_selected_items()
         return
     end
 
-    -- store information about the current selection
     local last_item_end = 0
     
     -- track selected items to compare with after paste
@@ -75,7 +71,6 @@ function copy_selected_items()
     local offset_time = 0.5
     local paste_position = find_safe_paste_position(last_item_end, offset_time)
 
-    -- begin undo block
     reaper.Undo_BeginBlock()
 
     -- copy using reaper's built-in function
@@ -101,10 +96,7 @@ function copy_selected_items()
     --     reaper.setmediaitemselected(item, true)
     -- end
 
-    -- update ui
     reaper.UpdateArrange()
-
-    -- end undo block
     reaper.Undo_EndBlock("Copy and Paste Selected Media Items (Adjusted for Regions)", -1)
 end
 
@@ -154,7 +146,6 @@ function copy_selected_items_randomize()
     local offset_time = 0.5
     local paste_position = find_safe_paste_position(last_item_end, offset_time)
 
-    -- begin undo block
     reaper.Undo_BeginBlock()
 
     -- copy using reaper's built-in function
@@ -181,8 +172,6 @@ function copy_selected_items_randomize()
 
     -- update ui
     reaper.UpdateArrange()
-
-    -- end undo block
     reaper.Undo_EndBlock("Copy and Paste Selected Media Items (Adjusted for Regions)", -1)
 end
 
@@ -231,7 +220,6 @@ function copy_selected_items_randomize_regions()
     local offset_time = 0.5
     local paste_position = find_safe_paste_position(last_item_end, offset_time)
 
-    -- begin undo block
     reaper.Undo_BeginBlock()
 
     -- copy using reaper's built-in function
@@ -251,13 +239,6 @@ function copy_selected_items_randomize_regions()
     
     RandomizeSelectedItems()    CreateIncrementedRegion()
 
-    -- keep the newly pasted items selected (which happens by default)
-    -- don't reselect original items, so if the user runs this again, 
-    -- it will work with the newly created items
-
-    -- update ui
     reaper.UpdateArrange()
-
-    -- end undo block
     reaper.Undo_EndBlock("Copy and Paste Selected Media Items (Adjusted for Regions)", -1)
 end
