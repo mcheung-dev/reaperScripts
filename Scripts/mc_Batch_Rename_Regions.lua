@@ -1,8 +1,6 @@
--- Batch Rename Regions Script for Reaper
--- Prompts user for a search string and replacement string
--- Replaces the search string in all region names
-
--- Function to get all regions in the project
+-- @author mcheung
+-- @version 1.0
+-- script that batch renames regions
 function GetAllRegions()
     local regions = {}
     local i = 0
