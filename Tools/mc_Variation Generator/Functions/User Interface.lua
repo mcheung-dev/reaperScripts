@@ -87,8 +87,8 @@ function loop()
                 end
             end
             reaper.ImGui_EndMenuBar(ctx)
-            reaper.ImGui_PopFont(ctx)     
         end
+        reaper.ImGui_PopFont(ctx)
 
         reaper.ImGui_PushFont(ctx, menufont)
         reaper.ImGui_PushTextWrapPos(ctx, 0) 
