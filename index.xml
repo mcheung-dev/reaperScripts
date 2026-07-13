@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mc_reaperScripts" commit="46946bddd2e34e2ed26d3f0919ee25add216fc82">
+<index version="1" name="mc_reaperScripts" commit="86152c88b8eb94bb130186ae5ec35f5575e00853">
   <category name="Scripts">
     <reapack name="mc_Auto Increment Duplicate Regions.lua" type="script">
       <version name="1.0" author="mcheung" time="2024-11-16T08:07:43Z">
@@ -75,6 +75,11 @@
     <reapack name="mc_Reset MediaItem Rate.lua" type="script">
       <version name="1.1" author="Michael Cheung" time="2025-05-24T02:37:30Z">
         <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/2d3ec88c63fcb44d5c42c70d84275ff403345a09/Scripts/mc_Reset%20MediaItem%20Rate.lua</source>
+      </version>
+    </reapack>
+    <reapack name="mc_Select All Items for Wwise Export.lua" type="script">
+      <version name="1.0" author="mcheung" time="2026-07-13T21:09:50Z">
+        <source main="main">https://github.com/mcheung-dev/reaperScripts/raw/86152c88b8eb94bb130186ae5ec35f5575e00853/Scripts/mc_Select%20All%20Items%20for%20Wwise%20Export.lua</source>
       </version>
     </reapack>
     <reapack name="mc_Select items under length threshold on selected tracks.lua" type="script">
