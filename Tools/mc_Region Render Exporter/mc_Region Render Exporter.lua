@@ -1,9 +1,6 @@
 -- @author mcheung
 -- @version 1.0
--- @description Region Render Exporter — batch render every region as the master mix,
---              assigning mono (1ch) or stereo (2ch) per region COLOR from a GUI.
---              Uses REAPER's current render output folder + format (set once in the
---              Render window; they persist in the project). Settings restored after.
+-- @description Region Render Exporter — batch render every region as the master mix, assigning mono (1ch) or stereo (2ch) per region COLOR from a GUI. Uses REAPER's current render output folder + format (set once in the Render window; they persist in the project). Settings restored after.
 
 ------ check dependencies (matches other MC tools) ---------------------------------
 local imgui_exists = reaper.APIExists("ImGui_GetVersion")
