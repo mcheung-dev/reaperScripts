@@ -40,7 +40,6 @@ function UpdateBaseRegionName()
         baseRegionName = lastRegionName:match("^(.-)_%d+$") or lastRegionName
     end
 
-    -- default to "Region" if no previous name is found
     if not baseRegionName or baseRegionName == "" then
         baseRegionName = "Region"
     end

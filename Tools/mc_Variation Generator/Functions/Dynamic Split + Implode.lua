@@ -13,7 +13,6 @@ function implode_takes()
         reaper.defer(poll)
     end
     
-    -- MAIN ---------------------
     reaper.Undo_BeginBlock()
     reaper.PreventUIRefresh(1)
 
